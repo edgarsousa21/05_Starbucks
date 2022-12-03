@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-texto {
+    width: 600px;
+
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    /*cor*/
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    /*link maozinha*/
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.logo {
+    width: 80px;
+}
+
+.starbucks {
+    /* width: 340px; */
+    position: relative;
+    width: 340px;
+    top: 106px;
+    left: 97px;
+}
+
+
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    top: 333px;
+    left: 0;
+    clip-path: circle(600px at right 680px); 
+    /* clip-path: circle(600px at right 800px); */
+    z-index: -1;
+}
